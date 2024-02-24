@@ -1,0 +1,10 @@
+SELECT *
+FROM movies;
+
+SELECT *
+FROM movies
+ORDER BY released desc ;
+
+SELECT *
+FROM movies
+WHERE released=2021;
