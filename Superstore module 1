@@ -1,0 +1,19 @@
+SELECT price,item_name, stock_quantity
+FROM superstore
+ORDER BY price desc;
+
+SELECT SUM(stock_quantity)
+FROM superstore;
+
+SELECT AVG(average_rating)
+FROM superstore;
+
+SELECT MIN(price)
+FROM superstore;
+
+SELECT MAX(price)
+FROM superstore;
+
+SELECT category, stock_quantity
+FROM superstore
+ORDER BY stock_quantity desc
