@@ -1,0 +1,6 @@
+SELECT SUM(session_duration)
+FROM ecom_data;
+
+SELECT SUM(session_duration), item_name
+FROM ecom_data
+GROUP BY item_name;
